@@ -1,0 +1,56 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.units {
+    width: 100vw;
+    height: 100vh;
+    min-width: 1280px;
+}
+
+.person_list {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color:#ffc5c5;
+    overflow:auto;
+}
+
+.person {
+    background-color:#ffc5c5;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+
+.footer {
+    position:fixed;
+    width: 100vw;
+    bottom: 0;
+    left:0;
+    min-width: 1280px;
+
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    
+    width: 100vw;
+    min-width: 1280px;
+    background-color:#3d1408;
+}
+
+.icon {
+    height: 60px;
+    line-height:60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:white;
+    flex-grow: 1;
+    text-align: center;
+}

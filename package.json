@@ -1,0 +1,12 @@
+{
+    "devDependencies":{
+        "typescript":"*",
+        "webpack":"*",
+        "webpack-cli":"*",
+        "ts-loader":"*"
+    },
+    "dependencies": {
+        "express":"*",
+        "ejs":"*"
+    }
+}
